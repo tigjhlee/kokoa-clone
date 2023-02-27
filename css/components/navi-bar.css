@@ -1,0 +1,50 @@
+.navi-bar-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navi-bar-list__element-a {
+  color: #2f363e;
+}
+
+.navi-bar {
+  background-color: #f9f9fa;
+  padding: 25px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navi-bar-list__element {
+  display: flex;
+  position: relative;
+}
+
+.navi-bar-list__element-number {
+  width: 23px;
+  height: 23px;
+  background-color: tomato;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+
+.navi-bar-list__element-dot {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+}

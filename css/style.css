@@ -1,0 +1,18 @@
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/main-header.css";
+@import "components/navi-bar.css";
+@import "components/profile.css";
+
+/* login */
+@import "screen/login.css";
+
+/* friends */
+@import "friend/notice.css";
+
+body {
+  font-family: Comic Sans Ms;
+}

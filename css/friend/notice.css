@@ -1,0 +1,16 @@
+.notice-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  height: 50px;
+}
+
+.notice-info i {
+  color: #d5d5d5;
+  margin: 5px;
+}
+
+.notice-info i:last-child {
+  margin: 10px;
+}
