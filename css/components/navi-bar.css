@@ -21,30 +21,3 @@
   display: flex;
   position: relative;
 }
-
-.navi-bar-list__element-number {
-  width: 23px;
-  height: 23px;
-  background-color: tomato;
-  border-radius: 50%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-
-  position: absolute;
-  left: 20px;
-  bottom: 10px;
-}
-
-.navi-bar-list__element-dot {
-  width: 5px;
-  height: 5px;
-  background-color: tomato;
-  border-radius: 50%;
-
-  position: absolute;
-  left: 30px;
-  bottom: 20px;
-}

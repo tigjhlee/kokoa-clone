@@ -4,6 +4,7 @@
   margin: 10px var(--margin);
 }
 
+/* user profile info */
 .user-profile-info {
   display: flex;
   align-items: center;
@@ -15,18 +16,28 @@
   border-radius: 25px;
 }
 
-.user-profile-info__name {
+.user-profile-text {
   margin: 20px;
   font-size: large;
+  display: flex;
+  flex-direction: column;
 }
 
+.user-profile-text span:last-child {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #b0b0b0;
+}
+
+/* user profile extra */
 .user-profile-extra {
   display: flex;
   align-items: center;
   color: #b0b0b0;
-  font-size: large;
+  font-size: 15px;
 }
 
+/* channel */
 .channel-header {
   border-top: 2px solid #eeeeee;
   color: #b0b0b0;
@@ -55,4 +66,10 @@
 
 .user-profile--small-extra i {
   margin-left: 5px;
+}
+
+.user-profile-extra--chats {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
