@@ -8,12 +8,15 @@
 @import "components/profile.css";
 @import "components/red-dot.css";
 
-/* login */
+/* screen */
 @import "screen/login.css";
-
-/* friends */
-@import "friend/notice.css";
+@import "screen/friends.css";
+@import "screen/search.css";
 
 body {
   font-family: Comic Sans Ms;
+}
+
+.main-article {
+  margin: 0px var(--margin);
 }

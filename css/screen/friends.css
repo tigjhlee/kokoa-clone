@@ -1,3 +1,4 @@
+/* notice */
 .notice-info {
   display: flex;
   justify-content: center;
@@ -13,4 +14,14 @@
 
 .notice-info i:last-child {
   margin: 10px;
+}
+
+/* channel */
+.channel-header {
+  border-top: var(--border);
+  color: #b0b0b0;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px var(--margin);
+  padding-top: 15px;
 }

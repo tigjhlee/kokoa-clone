@@ -1,0 +1,128 @@
+/* icon */
+.find-icon-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.find-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icon i {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+/* recommended */
+.recommended-friend {
+  color: #bbbbbb;
+  border-top: var(--border);
+  border-bottom: var(--border);
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+
+.recommended-friend h1:last-child {
+  font-size: 20px;
+  text-align: center;
+  margin: 100px 0px;
+}
+
+/* open chat */
+.open-chat {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* open chat title */
+.open-chat-title {
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-chat-title h1:first-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* open chat room */
+.open-chat-room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--border);
+}
+
+/* open chat column(text section) */
+.open-chat-column {
+  margin: 15px 0px;
+  position: relative;
+}
+
+.open-chat-column h1 {
+  color: black;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.open-chat-column h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* open chat column(picture section) */
+.open-chat-column img {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+.open-chat-column__heart {
+  background-color: black;
+  opacity: 0.7;
+
+  width: 60px;
+  height: 25px;
+  border-radius: 11px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  bottom: 8px;
+  left: 45px;
+}
+
+.open-chat-column__heart span {
+  color: white;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* open chat column state */
+.open-chat-column__state {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.open-chat-column__state img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.divide-bar {
+  width: 1.5px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0px 5px;
+}
+
+.open-chat-column__state h3:last-child {
+  color: #ff69c5;
+}
